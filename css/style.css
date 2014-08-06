@@ -1,0 +1,34 @@
+body {
+  font-family: 'Lato', sans-serif; /* sans-serif is the fallback */
+  line-height: 1.5;
+  color: white;
+
+  background: url(../images/daft.gif);
+  /* full page background recipe (allows bkgd image to be responsive) */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 500px;
+  margin: 40px;
+  background: rgba(0,0,0,0.4);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: 'Rokkitt', serif; /* serif is the fallback */
+	font-size: 85px;
+	margin-bottom: -35px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+a {
+	color: #BFE35B;
+	text-decoration: none;
+}
